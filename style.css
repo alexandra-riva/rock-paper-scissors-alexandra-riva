@@ -1,0 +1,84 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+  font-family: 'Bungee', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+  
+  .gamepad {
+    text-align: center;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 10px;
+  }
+
+  h1 {
+    font-size: 4.5rem;
+    color: #333;
+    margin-bottom: 30px;
+  }    
+  
+  h3 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 10px;
+  }   
+  
+  .buttons {
+    margin: 20px 0;
+  }
+  
+  button {
+    padding: 20px 30px;
+    margin: 30px;
+    font-size: 3rem;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-family: 'Bungee', sans-serif;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 80px;
+    transition: background-color 0.3s ease; transform 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #f7cac9;
+    transform: scale(1.08); 
+  }
+
+  button img {
+    width: 95%; 
+    height: auto; 
+  }  
+  
+  .result h2 {
+    margin-top: 30px;
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .score h3 {
+    margin-top: 15px;
+    font-size: 3rem;
+  }
+  
+  #result-text {
+    font-weight: bold;
+    color: #7d2ae8;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
