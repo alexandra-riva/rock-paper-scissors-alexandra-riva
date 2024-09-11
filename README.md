@@ -1,1 +1,1 @@
-Interactive Rock-Paper-Scissors Game with JavaScript, HTML and CSS.
+Rock-Paper-Scissors Game with interactive features using JavaScript, HTML and CSS.
