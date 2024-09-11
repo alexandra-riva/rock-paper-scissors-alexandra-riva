@@ -63,7 +63,7 @@ function checkWinner() {
   } else if (playerScore < computerScore) {
     alert("Computer is the winner!");
   } else {
-    alert("It's a tie after 5 rounds!");
+    alert("After 5 rounds, it's a draw!");
   }
 }
 
@@ -73,7 +73,7 @@ choiceBtns.forEach((button) => {
       const playerChoice = button.textContent.toUpperCase();
       playGame(playerChoice);
     } else {
-      alert("Game over! Please refresh the page to play again.");
+      alert("You've reached the end of the game. Hit refresh to try again!");
     }
   });
 });
